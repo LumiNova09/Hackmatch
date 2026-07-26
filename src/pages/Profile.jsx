@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; 
 
 function Profile() {
   const navigate = useNavigate();
@@ -12,8 +12,8 @@ function Profile() {
     <div
       style={{
         minHeight: "100vh",
-        background: "#0f172a",
-        color: "white",
+        background:"#F7F5F2",
+        color:"#1A1A1A",
         padding: "40px",
       }}
     >
@@ -22,13 +22,13 @@ function Profile() {
         {/* Header */}
         <div className="d-flex justify-content-between align-items-center mb-4">
           <button
-            className="btn btn-outline-light"
+            className="btn btn-outline-dark"
             onClick={() => navigate("/")}
           >
             ← Back to Home
           </button>
 
-          <h1 className="m-0">👤 Create Your Profile</h1>
+          <h1 className="m-0"> Create Your Profile</h1>
 
           <div></div>
         </div>
@@ -36,7 +36,7 @@ function Profile() {
         {/* Form */}
         <form
           onSubmit={handleSubmit}
-          className="bg-dark p-4 rounded shadow"
+          className="bg-white p-4 rounded shadow"
         >
 
           <div className="mb-3">
@@ -130,9 +130,9 @@ function Profile() {
 
           <button
             type="submit"
-            className="btn btn-primary w-100"
+            className="btn btn-dark w-100"
           >
-            Find My Team 🚀
+            Find My Team 
           </button>
 
         </form>

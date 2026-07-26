@@ -1,17 +1,67 @@
-body {
-  margin: 0;
-  font-family: "Segoe UI", sans-serif;
-  background: #0f172a;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-* {
-  box-sizing: border-box;
+body{
+  font-family:'Inter',sans-serif;
+  background:#F7F5F2;
+  color:#1A1A1A;
 }
 
-button {
-  transition: 0.3s;
+a{
+  text-decoration:none;
 }
 
-button:hover {
-  transform: scale(1.05);
+.card{
+  background:#FFFFFF !important;
+  border:none !important;
+  border-radius:18px !important;
+  box-shadow:0 8px 24px rgba(0,0,0,.08);
 }
+
+.btn{
+  border-radius:12px !important;
+  font-weight:500;
+  transition:.3s;
+}
+
+.btn-dark{
+  background:#1A1A1A !important;
+  border:none;
+}
+
+.btn-dark:hover{
+  background:#333333 !important;
+}
+
+.btn-outline-dark{
+  border:1px solid #1A1A1A;
+}
+
+.form-control,
+.form-select{
+  border-radius:12px;
+  border:1px solid #E5E5E5;
+  padding:12px;
+}
+
+.form-control:focus,
+.form-select:focus{
+  border-color:#1A1A1A;
+  box-shadow:none;
+}
+
+h1,h2,h3{
+  color:#1A1A1A;
+  font-weight:700;
+}
+
+p{
+  color:#666666;
+}
+
+footer{
+  color:#888;
+} 

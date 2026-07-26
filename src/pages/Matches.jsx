@@ -23,7 +23,7 @@ function Matches() {
   ];
 
   const handleAccept = (teamName) => {
-    alert(`🎉 Request sent to ${teamName}!`);
+    alert(` Request sent to ${teamName}!`);
   };
 
   const handleReject = () => {
@@ -34,8 +34,8 @@ function Matches() {
     <div
       style={{
         minHeight: "100vh",
-        background: "#0f172a",
-        color: "white",
+        background:"#F7F5F2",
+        color:"#1A1A1A",
         padding: "40px",
       }}
     >
@@ -46,7 +46,7 @@ function Matches() {
             ← Back to Home
           </Link>
 
-          <h1 className="m-0">🤝 Recommended Teams</h1>
+          <h1 className="m-0"> Recommended Teams</h1> 
 
           <Link to="/dashboard" className="btn btn-primary">
             Dashboard →
@@ -87,7 +87,7 @@ function Matches() {
               </button>
 
               <button
-                className="btn btn-outline-light"
+                className="btn btn-danger"
                 onClick={handleReject}
               >
                 Reject
@@ -102,4 +102,4 @@ function Matches() {
   );
 }
 
-export default Matches; 
+export default Matches;  

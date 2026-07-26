@@ -5,13 +5,13 @@ function Home() {
     <div
       style={{
         minHeight: "100vh",
-        background: "linear-gradient(135deg,#0f172a,#111827,#1e3a8a)",
-        color: "white",
-      }}
+        background:"#F7F5F2",
+        color:"#1A1A1A",
+      }} 
     >
       {/* Navbar */}
-      <nav className="navbar navbar-dark px-5 py-3">
-        <h2 className="fw-bold">🚀 HackMatch</h2>
+      <nav className="navbar">
+        <h2 className="fw-bold"> HackMatch</h2>
 
         <Link to="/dashboard" className="btn btn-outline-light">
           Dashboard
@@ -33,14 +33,14 @@ function Home() {
 
           <Link
             to="/profile"
-            className="btn btn-primary btn-lg me-3"
+             className="btn btn-dark btn-lg me-3"
           >
             Create Profile
           </Link>
 
           <Link
             to="/matches"
-            className="btn btn-outline-light btn-lg"
+            className="btn btn-outline-dark btn-lg"
           >
             View Matches
           </Link>
@@ -59,7 +59,7 @@ function Home() {
 
             <div className="card bg-dark text-white p-4 h-100">
 
-              <h3>🤝 Smart Matching</h3>
+              <h3> Smart Matching</h3>
 
               <p>
                 Teams are recommended based on skills,
@@ -72,9 +72,9 @@ function Home() {
 
           <div className="col-md-4 mb-4">
 
-            <div className="card bg-dark text-white p-4 h-100">
+            <div className="card bg-white p-4 h-100">
 
-              <h3>⚡ Fast Team Formation</h3>
+              <h3> Fast Team Formation</h3>
 
               <p>
                 Reduce the time spent searching for
@@ -89,7 +89,7 @@ function Home() {
 
             <div className="card bg-dark text-white p-4 h-100">
 
-              <h3>📊 Organizer Dashboard</h3>
+              <h3> Organizer Dashboard</h3>
 
               <p>
                 Monitor registrations, teams and
@@ -106,37 +106,84 @@ function Home() {
 
       {/* Statistics */}
 
+            {/* Statistics */}
+
       <div className="container mt-5 pb-5">
 
         <div className="row text-center">
 
-          <div className="col">
-            <h1 className="fw-bold">500+</h1>
-            <p>Participants</p>
+          <div className="col-md-4 mb-4">
+            <h1
+              className="fw-bold"
+              style={{
+                fontSize: "3rem",
+                color: "#1A1A1A",
+              }}
+            >
+              500+
+            </h1>
+
+            <p
+              className="text-secondary"
+              style={{
+                letterSpacing: "1px",
+                fontSize: "15px",
+              }}
+            >
+              Participants
+            </p>
           </div>
 
-          <div className="col">
-            <h1 className="fw-bold">120</h1>
-            <p>Teams Formed</p>
+          <div className="col-md-4 mb-4">
+            <h1
+              className="fw-bold"
+              style={{
+                fontSize: "3rem",
+                color: "#1A1A1A",
+              }}
+            >
+              120
+            </h1>
+
+            <p
+              className="text-secondary"
+              style={{
+                letterSpacing: "1px",
+                fontSize: "15px",
+              }}
+            >
+              Teams Formed
+            </p>
           </div>
 
-          <div className="col">
-            <h1 className="fw-bold">96%</h1>
-            <p>Successful Matches</p>
+          <div className="col-md-4 mb-4">
+            <h1
+              className="fw-bold"
+              style={{
+                fontSize: "3rem",
+                color: "#1A1A1A",
+              }}
+            >
+              96%
+            </h1>
+
+            <p
+              className="text-secondary"
+              style={{
+                letterSpacing: "1px",
+                fontSize: "15px",
+              }}
+            >
+              Successful Matches
+            </p>
           </div>
 
         </div>
 
       </div>
-      
-      <footer className="text-center py-4 mt-5 text-secondary">
-        <hr className="text-light" />
-        <p>
-          HackMatch © 2026 | Smart Team Matching Platform
-        </p>
-      </footer>
+
     </div>
   );
 }
 
-export default Home; 
+export default Home;  
