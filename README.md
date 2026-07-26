@@ -1,16 +1,65 @@
-# React + Vite
+# Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A team discovery and formation platform designed for the IBM Z Summit 2026 to help 500+ multi-college participants seamlessly form balanced hackathon teams.
 
-Currently, two official plugins are available:
+# Probelm Statement
+ 
+ Inter college networking at large summits is fragmented.Students struggle to find teammates with complimentary skills for hackathons, making it difficult for solo participants or incomplete teams to connect with the right people.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ ## Features
 
-## React Compiler
+-  User Registration and Login
+-  Skill-Based User Profiles
+-  Team Match Recommendations
+-  Accept / ❌ Reject Team Suggestion
+-  Organizer Dashboard
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+React.js
+Vite
+React Router DOM
+Bootstrap 5
+JavaScript
+CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Set up instructions
+Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/LumiNova09/Hackmatch.git
+```
+
+Go to the project folder
+
+```bash
+cd Hackmatch
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the application
+
+```bash
+npm run dev
+```
+
+## Future Scope
+- AI-based teammate recommendation
+- Authentication
+- Database integration
+- Chat between teammates
+- Organizer analytics
+- Team creation and invitations
+
+
+
+
+
+
